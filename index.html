@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <title>Calculator</title>
+  </head>
+
+<body>
+
+  <div id="calculator">
+    <p id="display">0</p>
+      <div class="buttons">
+        <button onclick="setInteger('7')">7</button>
+        <button onclick="setInteger('8')">8</button>
+        <button onclick="setInteger('9')">9</button>
+        <button onclick="numberAction('addition')">+</button><br>
+        <button onclick="setInteger('4')">4</button>
+        <button onclick="setInteger('5')">5</button>
+        <button onclick="setInteger('6')">6</button>
+        <button onclick="numberAction('subtraction')">-</button><br>
+        <button onclick="setInteger('1')">1</button>
+        <button onclick="setInteger('2')">2</button>
+        <button onclick="setInteger('3')">3</button>
+        <button onclick="numberAction('multiplication')">x</button><br>
+        <button onclick="clearAll()">C</button>
+        <button onclick="setInteger('0')">0</button>
+        <button onclick="calculate()">=</button>
+        <button onclick="numberAction('division')">/</button><br>
+      </div>
+  </div>
+
+</body>
+
+</html>
